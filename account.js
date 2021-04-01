@@ -10,6 +10,9 @@ const ACCOUNTS_LS = "accounts";
 
 let accounts = [];
 
+
+
+
 function saveAccounts(){
     localStorage.setItem(ACCOUNTS_LS, JSON.stringify(accounts));
 }
