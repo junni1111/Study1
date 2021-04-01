@@ -20,11 +20,6 @@ function joinAccount(idText, pwText){
         id : idText,
         pw : pwText
     };
-
-
-
-
-
     accounts.forEach(function(account){
         if(account.id === idText) flag = false;
     });
