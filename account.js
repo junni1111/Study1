@@ -67,6 +67,7 @@ function handleSubmit(event){
         }
     } else{
         confirm("ID 및 PW를 모두 입력해 주세요.");
+
     }
 }
 
